@@ -1,0 +1,82 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.vertical{
+    height: 43px;
+    width: 1px;
+    background-color: rgb(233, 232, 232);
+    margin-right: 10px;
+}
+.overlie{
+    width: 950px;
+    height: 130px;
+    background-color: rgba(245, 231, 231, 0.3);
+    border-radius: 10px;
+
+}
+.div-title{
+    height: 70px;
+    background-color: gray;
+
+}
+
+.butn:hover{background-color: rgb(219, 233, 240);}
+.tooltip.bottom .tooltip.arrow{
+    border-top-color: green;
+}
+.tooltip.inner{
+    background-color: green;
+
+}
+/* //// */
+.section3{
+    background-image: url(../Images/bb.jpeg);
+    background-repeat: no-repeat;
+    background-size:100% ;
+    background-attachment: fixed;
+}
+.vide{
+    height: 300px;
+    width: 100%;
+}
+.categorie{
+
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: flex-end ; 
+    grid-row-gap: 70px;
+    align-items: end;
+}
+.navbar-brand{
+    transition: 0.4s;
+}
+.navbar-brand:hover{
+    text-shadow: 10px 10px 20px white,
+                -10px -10px 20px white;
+}
+.dropdown-menu li a{
+    text-shadow: 1px 1px 0px black;
+}
+
+.section4{
+    background-image: url(../Images/htm.jpg);
+    background-repeat: no-repeat;
+    background-size:100% ;
+    background-attachment:fixed;
+}
+.myicon{
+    height:30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 17px;
+}
+a{
+    text-decoration: none;
+    color: #CCCCFF !important;
+}
+a:hover{
+    color: white !important;
+}
